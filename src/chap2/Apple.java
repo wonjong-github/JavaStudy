@@ -3,7 +3,7 @@ package chap2;
 public class Apple extends Fruit implements AppleIn{
     private Color color;
     private String name;
-    private int weight;
+    private Integer weight;
 
     public Apple(Color color, String name, int weight) {
         this.color = color;
@@ -27,7 +27,7 @@ public class Apple extends Fruit implements AppleIn{
         this.name = name;
     }
 
-    public int getWeight() {
+    public Integer getWeight() {
         return weight;
     }
 
